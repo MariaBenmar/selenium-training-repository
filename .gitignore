@@ -10,3 +10,4 @@ csharp-example/.vs/
 .idea/workspace.xml
 .idea/runConfigurations/.gradle
 build/
+*.xml

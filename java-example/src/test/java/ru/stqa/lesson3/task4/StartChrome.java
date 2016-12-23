@@ -5,7 +5,7 @@ import org.junit.Before;
 import org.junit.Test;
 import org.openqa.selenium.HasCapabilities;
 import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.firefox.FirefoxDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
 /**
@@ -23,7 +23,7 @@ public class StartChrome {
 options.setBinary("C:\\Program Files (x86)\\Google\\Chrome\\Application\\chrome.exe");
 options.addArguments("start-maximized");
 WebDriver driver = new ChromeDriver(options);*/
-        driverChr = new FirefoxDriver();
+        driverChr = new ChromeDriver();
         System.out.println(((HasCapabilities) driverChr).getCapabilities());
         waitChr = new WebDriverWait(driverChr, 10);
     }
