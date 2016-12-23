@@ -1,0 +1,43 @@
+package ru.stqa.lesson3.task4;
+
+import org.junit.After;
+import org.junit.Before;
+import org.junit.Test;
+import org.openqa.selenium.HasCapabilities;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.firefox.FirefoxDriver;
+import org.openqa.selenium.support.ui.WebDriverWait;
+
+/**
+ * Created by Maria on 12/23/2016.
+ */
+public class StartChrome {
+
+    private WebDriver driverChr;
+    private WebDriverWait waitChr;
+
+
+    @Before
+    public void start() {
+/*        ChromeOptions options = new ChromeOptions();
+options.setBinary("C:\\Program Files (x86)\\Google\\Chrome\\Application\\chrome.exe");
+options.addArguments("start-maximized");
+WebDriver driver = new ChromeDriver(options);*/
+        driverChr = new FirefoxDriver();
+        System.out.println(((HasCapabilities) driverChr).getCapabilities());
+        waitChr = new WebDriverWait(driverChr, 10);
+    }
+
+
+    @Test
+    public void startChrome() {
+
+    }
+
+
+    @After
+    public void stop() {
+        driverChr.quit();
+        driverChr = null;
+    }
+}
