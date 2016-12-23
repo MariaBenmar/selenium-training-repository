@@ -29,7 +29,7 @@ public class StartFireFox {
 
 
     @Test
-    public void startChrome(){
+    public void startFireFox(){
 
     }
 

@@ -24,9 +24,9 @@ public class StartFirefoxOld {
     @Before
     public void start(){
         DesiredCapabilities caps = new DesiredCapabilities();
- //       caps.setCapability(FirefoxDriver.MARIONETTE, false);
-         driverFf = new FirefoxDriver(new FirefoxBinary(new File("D:\\Tools\\Mozilla Firefox 45\\firefox.exe")), new FirefoxProfile(), caps);
-//           driverFf = new FirefoxDriver();
+ //     caps.setCapability(FirefoxDriver.MARIONETTE, false);
+        driverFf = new FirefoxDriver(new FirefoxBinary(new File("D:\\Tools\\Mozilla Firefox 45\\firefox.exe")), new FirefoxProfile(), caps);
+//      driverFf = new FirefoxDriver();
         System.out.println(((HasCapabilities) driverFf).getCapabilities());
         waitFf = new WebDriverWait(driverFf, 10);
     }
@@ -34,7 +34,7 @@ public class StartFirefoxOld {
 
 
     @Test
-    public void startChrome(){
+    public void startFirefoxOld(){
 
     }
 

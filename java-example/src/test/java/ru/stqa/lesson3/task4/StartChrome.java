@@ -20,9 +20,9 @@ public class StartChrome {
     @Before
     public void start() {
 /*        ChromeOptions options = new ChromeOptions();
-options.setBinary("C:\\Program Files (x86)\\Google\\Chrome\\Application\\chrome.exe");
-options.addArguments("start-maximized");
-WebDriver driver = new ChromeDriver(options);*/
+        options.setBinary("C:\\Program Files (x86)\\Google\\Chrome\\Application\\chrome.exe");
+        options.addArguments("start-maximized");
+        WebDriver driver = new ChromeDriver(options);*/
         driverChr = new ChromeDriver();
         System.out.println(((HasCapabilities) driverChr).getCapabilities());
         waitChr = new WebDriverWait(driverChr, 10);
