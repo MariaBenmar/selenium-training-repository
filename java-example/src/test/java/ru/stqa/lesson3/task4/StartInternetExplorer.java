@@ -8,9 +8,6 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.ie.InternetExplorerDriver;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
-/**
- * Created by Maria on 12/22/2016.
- */
 public class StartInternetExplorer {
 
     private WebDriver driverIe;

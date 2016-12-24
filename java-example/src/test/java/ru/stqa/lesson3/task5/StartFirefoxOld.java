@@ -13,9 +13,6 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 
 import java.io.File;
 
-/**
- * Created by Maria on 12/23/2016.
- */
 public class StartFirefoxOld {
     private WebDriver driverFf;
     private WebDriverWait waitFf;

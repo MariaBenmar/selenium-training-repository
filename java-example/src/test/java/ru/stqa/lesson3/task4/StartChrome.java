@@ -8,9 +8,6 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
-/**
- * Created by Maria on 12/23/2016.
- */
 public class StartChrome {
 
     private WebDriver driverChr;
