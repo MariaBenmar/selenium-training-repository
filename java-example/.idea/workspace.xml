@@ -48,13 +48,27 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="GoAllSections.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/test/java/ru/stqa/lesson4/task7/GoAllSections.java">
+      <file leaf-file-name="CheckStickers.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/java/ru/stqa/lesson4/task8/CheckStickers.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="173">
-              <caret line="53" column="117" lean-forward="false" selection-start-line="53" selection-start-column="91" selection-end-line="53" selection-end-column="117" />
+            <state relative-caret-position="263">
+              <caret line="21" column="2" lean-forward="false" selection-start-line="21" selection-start-column="2" selection-end-line="21" selection-end-column="2" />
               <folding>
                 <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="BaseTest.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/ru/stqa/basetest/BaseTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="328">
+              <caret line="52" column="2" lean-forward="false" selection-start-line="52" selection-start-column="2" selection-end-line="52" selection-end-column="2" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#845#846#0" expanded="true" />
+                <element signature="e#907#908#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -66,6 +80,18 @@
             <state relative-caret-position="379">
               <caret line="38" column="5" lean-forward="true" selection-start-line="38" selection-start-column="5" selection-end-line="38" selection-end-column="5" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="GoAllSections.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/ru/stqa/lesson4/task7/GoAllSections.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="285">
+              <caret line="64" column="0" lean-forward="true" selection-start-line="64" selection-start-column="0" selection-end-line="64" selection-end-column="0" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -368,6 +394,10 @@
         <option value="$PROJECT_DIR$/src/test/java/ru/stqa/lesson3/task4/StartChrome.java" />
         <option value="$PROJECT_DIR$/src/test/java/ru/stqa/lesson3/task6/StartFirefoxNightly.java" />
         <option value="$PROJECT_DIR$/src/test/java/ru/stqa/lesson4/task7/GoAllSections.java" />
+        <option value="$PROJECT_DIR$/src/test/java/ru/stqa/lesson4/task7/CheckStickers.java" />
+        <option value="$PROJECT_DIR$/src/test/java/ru/stqa/basetest/TestBase.java" />
+        <option value="$PROJECT_DIR$/src/test/java/ru/stqa/basetest/BaseTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/ru/stqa/lesson4/task8/CheckStickers.java" />
       </list>
     </option>
   </component>
@@ -446,6 +476,44 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="stqa" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="lesson4" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="task8" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java-example" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java-example" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="test" />
+              <option name="myItemType" value="org.jetbrains.plugins.gradle.projectView.GradleTreeStructureProvider$GradleSourceSetDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="stqa" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="lesson4" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -561,6 +629,36 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="test" />
+              <option name="myItemType" value="org.jetbrains.plugins.gradle.projectView.GradleTreeStructureProvider$GradleSourceSetDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="stqa" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="basetest" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java-example" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java-example" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value=".idea" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -574,37 +672,14 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../../selenium-barancev/java-example" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="ru.stqa.lesson4.task8" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\Courses\GitHub\selenium-training-repository\java-example\src1" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.GoAllSections">
-    <configuration default="false" name="StartFireFox" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="ru.stqa.lesson3.task4.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <module name="java-example_test" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="ru.stqa.lesson3.task4" />
-      <option name="MAIN_CLASS_NAME" value="ru.stqa.lesson3.task4.StartFireFox" />
-      <option name="METHOD_NAME" />
-      <option name="TEST_OBJECT" value="class" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="JUnit.CheckStickers">
     <configuration default="false" name="StartChrome" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -686,7 +761,7 @@
     <configuration default="false" name="GoAllSections" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
-          <option name="PATTERN" value="ru.stqa.lesson4.task7.*" />
+          <option name="PATTERN" value="ru.stqa.lesson4.task8.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -695,6 +770,32 @@
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="ru.stqa.lesson4.task7" />
       <option name="MAIN_CLASS_NAME" value="ru.stqa.lesson4.task7.GoAllSections" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="false" name="CheckStickers" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="ru.stqa.lesson4.task8.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="java-example_test" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="ru.stqa.lesson4.task8" />
+      <option name="MAIN_CLASS_NAME" value="ru.stqa.lesson4.task8.CheckStickers" />
       <option name="METHOD_NAME" />
       <option name="TEST_OBJECT" value="class" />
       <option name="VM_PARAMETERS" value="-ea" />
@@ -914,19 +1015,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="JUnit.StartFireFox" />
-      <item index="1" class="java.lang.String" itemvalue="JUnit.StartChrome" />
-      <item index="2" class="java.lang.String" itemvalue="JUnit.StartFirefoxOld" />
-      <item index="3" class="java.lang.String" itemvalue="JUnit.StartFirefoxNightly" />
-      <item index="4" class="java.lang.String" itemvalue="JUnit.GoAllSections" />
+      <item index="0" class="java.lang.String" itemvalue="JUnit.StartChrome" />
+      <item index="1" class="java.lang.String" itemvalue="JUnit.StartFirefoxOld" />
+      <item index="2" class="java.lang.String" itemvalue="JUnit.StartFirefoxNightly" />
+      <item index="3" class="java.lang.String" itemvalue="JUnit.GoAllSections" />
+      <item index="4" class="java.lang.String" itemvalue="JUnit.CheckStickers" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="JUnit.GoAllSections" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.StartFirefoxNightly" />
-        <item index="2" class="java.lang.String" itemvalue="JUnit.StartFirefoxOld" />
-        <item index="3" class="java.lang.String" itemvalue="JUnit.StartChrome" />
-        <item index="4" class="java.lang.String" itemvalue="JUnit.StartFireFox" />
+        <item index="0" class="java.lang.String" itemvalue="JUnit.CheckStickers" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.GoAllSections" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.StartFirefoxNightly" />
+        <item index="3" class="java.lang.String" itemvalue="JUnit.StartFirefoxOld" />
+        <item index="4" class="java.lang.String" itemvalue="JUnit.StartChrome" />
       </list>
     </recent_temporary>
   </component>
@@ -947,40 +1048,40 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="GoAllSections - 2017.01.08 at 17h 30m 59s.xml">
-      <configuration name="GoAllSections" configurationId="JUnit" />
+    <history-entry file="CheckStickers - 2017.01.08 at 20h 13m 02s.xml">
+      <configuration name="CheckStickers" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="GoAllSections - 2017.01.08 at 17h 34m 20s.xml">
-      <configuration name="GoAllSections" configurationId="JUnit" />
+    <history-entry file="CheckStickers - 2017.01.08 at 20h 16m 22s.xml">
+      <configuration name="CheckStickers" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="GoAllSections - 2017.01.08 at 17h 36m 32s.xml">
-      <configuration name="GoAllSections" configurationId="JUnit" />
+    <history-entry file="CheckStickers - 2017.01.08 at 20h 18m 02s.xml">
+      <configuration name="CheckStickers" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="GoAllSections - 2017.01.08 at 17h 37m 12s.xml">
-      <configuration name="GoAllSections" configurationId="JUnit" />
+    <history-entry file="CheckStickers - 2017.01.08 at 20h 18m 54s.xml">
+      <configuration name="CheckStickers" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="GoAllSections - 2017.01.08 at 17h 41m 41s.xml">
-      <configuration name="GoAllSections" configurationId="JUnit" />
+    <history-entry file="CheckStickers - 2017.01.08 at 20h 19m 52s.xml">
+      <configuration name="CheckStickers" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="GoAllSections - 2017.01.08 at 17h 42m 34s.xml">
-      <configuration name="GoAllSections" configurationId="JUnit" />
+    <history-entry file="CheckStickers - 2017.01.08 at 20h 27m 24s.xml">
+      <configuration name="CheckStickers" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="GoAllSections - 2017.01.08 at 17h 43m 12s.xml">
-      <configuration name="GoAllSections" configurationId="JUnit" />
+    <history-entry file="CheckStickers - 2017.01.08 at 20h 29m 32s.xml">
+      <configuration name="CheckStickers" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="GoAllSections - 2017.01.08 at 17h 47m 35s.xml">
-      <configuration name="GoAllSections" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="GoAllSections - 2017.01.08 at 17h 50m 32s.xml">
-      <configuration name="GoAllSections" configurationId="JUnit" />
+    <history-entry file="CheckStickers - 2017.01.08 at 20h 30m 06s.xml">
+      <configuration name="CheckStickers" configurationId="JUnit" />
     </history-entry>
     <history-entry file="GoAllSections - 2017.01.08 at 17h 53m 31s.xml">
+      <configuration name="GoAllSections" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="GoAllSections - 2017.01.08 at 20h 12m 42s.xml">
       <configuration name="GoAllSections" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="0" width="1370" height="735" extended-state="0" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -989,15 +1090,15 @@
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2448" sideWeight="0.24889217" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3072" sideWeight="0.24889217" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2448" sideWeight="0.7511078" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3072" sideWeight="0.7511078" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25406203" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25406203" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.06646972" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -1260,8 +1361,30 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/ru/stqa/lesson4/task7/GoAllSections.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="173">
-          <caret line="53" column="117" lean-forward="false" selection-start-line="53" selection-start-column="91" selection-end-line="53" selection-end-column="117" />
+        <state relative-caret-position="285">
+          <caret line="64" column="0" lean-forward="true" selection-start-line="64" selection-start-column="0" selection-end-line="64" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/ru/stqa/basetest/BaseTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="328">
+          <caret line="52" column="2" lean-forward="false" selection-start-line="52" selection-start-column="2" selection-end-line="52" selection-end-column="2" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#845#846#0" expanded="true" />
+            <element signature="e#907#908#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/ru/stqa/lesson4/task8/CheckStickers.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="263">
+          <caret line="21" column="2" lean-forward="false" selection-start-line="21" selection-start-column="2" selection-end-line="21" selection-end-column="2" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
