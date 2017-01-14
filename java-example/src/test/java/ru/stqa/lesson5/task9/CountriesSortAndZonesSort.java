@@ -34,7 +34,7 @@ public class CountriesSortAndZonesSort extends BaseTest{
 
             for (WebElement country : countriesNames){
                 countryNamesText.add(country.getAttribute("outerText"));
-                System.out.println(country.getAttribute("outerText"));
+          //      System.out.println(country.getAttribute("outerText"));
             }
             Assert.assertTrue("A list isn't sorted by alphabetical", isSortedListString(countryNamesText));
 
@@ -47,13 +47,13 @@ public class CountriesSortAndZonesSort extends BaseTest{
                     countriesNames = driver.findElements(By.cssSelector("[name=countries_form] tr.row td:nth-child(5)"));
                     countriesNames.get(i).findElement(By.cssSelector("a")).click();
                     List<WebElement> zoneNamesForCountry = driver.findElements(By.cssSelector("table#table-zones tr > td:nth-child(3)"));
-                    zoneNamesForCountry.remove(zoneNamesForCountry.size()-1);
                     List <String> zoneNamesForCountryText = new ArrayList<>();
 
-                        for (WebElement zone : zoneNamesForCountry){
-                            zoneNamesForCountryText.add(zone.getAttribute("innerText"));
-                            System.out.println(zone.getAttribute("outerText"));
+                    for (int j = 0; j < zoneNamesForCountry.size()-1; j++) {
+                        zoneNamesForCountryText.add(zoneNamesForCountry.get(j).getAttribute("innerText"));
+          //              System.out.println(zoneNamesForCountryText.get(j));
                     }
+//
                     Assert.assertTrue("A list isn't sorted by alphabetical", isSortedListString(zoneNamesForCountryText));
                     driver.findElement(By.cssSelector("button[name = 'cancel']")).click();
             }
