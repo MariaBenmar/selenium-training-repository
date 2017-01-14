@@ -26,6 +26,12 @@ public class BaseTest {
             return false;
         }
     }
+    public void loginToAdmin () {
+        driver.navigate().to("http://localhost/litecart/admin/");
+        driver.findElement(By.name("username")).sendKeys("admin");
+        driver.findElement(By.name("password")).sendKeys("admin");
+        driver.findElement(By.name("login")).click();
+    }
 
     public boolean areElementsPresent(WebDriver driver, By locator) {
         return driver.findElements(locator).size() > 0;
