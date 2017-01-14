@@ -39,7 +39,7 @@ public class GeoZonesSortForCountries extends BaseTest {
 
             for (WebElement geoZone : geoZonesNames) {
                 geoZonesNamesText.add(geoZone.getAttribute("outerText"));
-                System.out.println(geoZone.getAttribute("outerText"));
+ //               System.out.println(geoZone.getAttribute("outerText"));
             }
             Assert.assertTrue("A list isn't sorted by alphabetical", isSortedListString(geoZonesNamesText));
             driver.findElement(By.cssSelector("button[name = 'cancel']")).click();
