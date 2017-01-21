@@ -11,7 +11,6 @@ import org.openqa.selenium.support.ui.Select;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
 import java.util.List;
-import java.util.ListIterator;
 import java.util.concurrent.TimeUnit;
 
 /**
@@ -40,6 +39,7 @@ public class BaseTest {
     public boolean areElementsPresent(WebDriver driver, By locator) {
         return driver.findElements(locator).size() > 0;
     }
+
     public void clickElementByLocator(String text) {
         driver.findElement(By.cssSelector(text)).click();
     }
@@ -49,19 +49,33 @@ public class BaseTest {
         locator.clear();
         locator.sendKeys(text);
     }
-
+    public void setText(String text, String locatorSearch){
+        WebElement locator = driver.findElement(By.cssSelector(locatorSearch));
+        locator.sendKeys(text);
+    }
     public void fillSelectForm(String code, String locatorSearch) {
         Select menuItem = new Select(driver.findElement(By.cssSelector(locatorSearch)));
         menuItem.selectByValue(code);
     }
-    public void setElementByName(String name, String locator, String tagName){
-        List<WebElement> Elements = driver.findElements(By.cssSelector(locator));
-        ListIterator listIterator = Elements.listIterator();
-        for (WebElement element : Elements){
-            if (name.equals(element.getAttribute(tagName))){
+    public void fillSelectVisibleForm(String code, String locatorSearch) {
+        Select menuItem = new Select(driver.findElement(By.cssSelector(locatorSearch)));
+        menuItem.selectByVisibleText(code);
+    }
 
-                Elements.get(listIterator.previousIndex()).click();
-            }
+
+
+    public void setElementByName(String name, String locator, String tagName){
+        List<WebElement> elements = driver.findElements(By.cssSelector(locator));
+
+        for (int i=0; i < elements.size(); i++) {
+                if (name.equals(elements.get(i).getAttribute(tagName))) {
+                    if (elements.get(i).getTagName().equals("input")) {
+                         elements.get(i).click();
+                    }
+                    else {
+                        elements.get(i-1).findElement(By.tagName("input")).click();
+                    }
+                }
         }
     }
 
