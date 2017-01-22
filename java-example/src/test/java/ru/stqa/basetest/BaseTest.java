@@ -7,10 +7,12 @@ import org.openqa.selenium.NoSuchElementException;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.support.ui.ExpectedCondition;
 import org.openqa.selenium.support.ui.Select;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
 import java.util.List;
+import java.util.Set;
 import java.util.concurrent.TimeUnit;
 
 /**
@@ -62,8 +64,6 @@ public class BaseTest {
         menuItem.selectByVisibleText(code);
     }
 
-
-
     public void setElementByName(String name, String locator, String tagName){
         List<WebElement> elements = driver.findElements(By.cssSelector(locator));
 
@@ -77,6 +77,30 @@ public class BaseTest {
                     }
                 }
         }
+    }
+
+    public void switchToNewWindowCloseAndReturn(WebElement link) {
+
+        String mainWindow = driver.getWindowHandle();
+        Set<String> oldWindows = driver.getWindowHandles();
+        link.click();
+        String newWindow = wait.until(thereIsWindowOtherThan(oldWindows));
+        driver.switchTo().window(newWindow);
+//       System.out.println(driver.getCurrentUrl());
+        driver.close();
+        driver.switchTo().window(mainWindow);
+
+    }
+
+        public ExpectedCondition<String> thereIsWindowOtherThan(Set<String> oldWindows){
+            return new ExpectedCondition<String>() {
+
+                public String apply(WebDriver webDriver) {
+                    Set<String> handles = driver.getWindowHandles();
+                    handles.removeAll(oldWindows);
+                    return handles.size() > 0 ? handles.iterator().next() : null;
+                }
+            };
     }
 
     @Before
