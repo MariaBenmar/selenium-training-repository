@@ -42,7 +42,6 @@ public class AddProductToBasketAndDelete extends BaseTest{
             productMainPageList.get(randomInt.nextInt(productMainPageList.size())).click();
 
             if (!isElementNotPresent(driver, By.cssSelector(locatorSelectOptionSize))) {
-
                 fillSelectForm("Small", locatorSelectOptionSize);
             }
             clickElementByLocator(locatorAddToCartButton);
@@ -54,21 +53,12 @@ public class AddProductToBasketAndDelete extends BaseTest{
         clickElementByLocator(locatorCheckoutLink);
         productInCheckoutList =  driver.findElements(By.cssSelector(locatorProductInCheckout));
         productsInOrderSummaryList = driver.findElements(By.cssSelector(locatorProductInOrderSummary));
-        System.out.println("locatorProductInCheckout = "+driver.findElements(By.cssSelector(locatorProductInCheckout)).size());
-        System.out.println("locatorProductInOrderSummary = "+driver.findElements(By.cssSelector(locatorProductInOrderSummary)).size());
+
         for (int i=0; i < productInCheckoutList.size(); i++){
-
-
+            productsInOrderSummaryList = driver.findElements(By.cssSelector(locatorProductInOrderSummary));
             clickElementByLocator(locatorCheckoutRemoveButton);
             //wait until product was removed in Order Summary table
-            System.out.println("productsInOrderSummaryList1 = "+driver.findElements(By.cssSelector(locatorProductInOrderSummary)).size());
-            System.out.println(stalenessOf(productsInOrderSummaryList.get(i)));
-
-
-
-            wait.until(stalenessOf(productsInOrderSummaryList.get(productInCheckoutList.size()-1)));
-            System.out.println("productsInOrderSummaryList2 = "+driver.findElements(By.cssSelector(locatorProductInOrderSummary)).size());
-
+             wait.until(stalenessOf(productsInOrderSummaryList.get(productInCheckoutList.size()-i-1)));
         }
     }
 }
