@@ -23,6 +23,13 @@ public class BaseTest {
     public WebDriver driver;
     public WebDriverWait wait;
 
+    public void loginToAdmin () {
+        driver.navigate().to("http://localhost/litecart/admin/");
+        driver.findElement(By.name("username")).sendKeys("admin");
+        driver.findElement(By.name("password")).sendKeys("admin");
+        driver.findElement(By.name("login")).click();
+    }
+
     private boolean isElementPresent(WebDriver driver, By locator) {
         try {
             driver.findElement(locator);
@@ -31,15 +38,19 @@ public class BaseTest {
             return false;
         }
     }
-    public void loginToAdmin () {
-        driver.navigate().to("http://localhost/litecart/admin/");
-        driver.findElement(By.name("username")).sendKeys("admin");
-        driver.findElement(By.name("password")).sendKeys("admin");
-        driver.findElement(By.name("login")).click();
-    }
 
     public boolean areElementsPresent(WebDriver driver, By locator) {
         return driver.findElements(locator).size() > 0;
+    }
+
+    public boolean isElementNotPresent(WebDriver driver, By locator){
+        try{
+            driver.manage().timeouts().implicitlyWait(0, TimeUnit.SECONDS);
+            return  driver.findElements(locator).size()==0;
+        }
+        finally{
+            driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
+        }
     }
 
     public void clickElementByLocator(String text) {
