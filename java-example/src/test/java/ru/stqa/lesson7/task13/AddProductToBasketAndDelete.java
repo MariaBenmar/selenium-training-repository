@@ -52,7 +52,6 @@ public class AddProductToBasketAndDelete extends BaseTest{
 
         clickElementByLocator(locatorCheckoutLink);
         productInCheckoutList =  driver.findElements(By.cssSelector(locatorProductInCheckout));
-        productsInOrderSummaryList = driver.findElements(By.cssSelector(locatorProductInOrderSummary));
 
         for (int i=0; i < productInCheckoutList.size(); i++){
             productsInOrderSummaryList = driver.findElements(By.cssSelector(locatorProductInOrderSummary));
