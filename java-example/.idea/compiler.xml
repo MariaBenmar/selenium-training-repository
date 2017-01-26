@@ -4,6 +4,9 @@
     <bytecodeTargetLevel>
       <module name="java-example_main" target="1.8" />
       <module name="java-example_test" target="1.8" />
+      <module name="junit-dataprovider-master_integTest" target="1.6" />
+      <module name="junit-dataprovider-master_main" target="1.6" />
+      <module name="junit-dataprovider-master_test" target="1.6" />
     </bytecodeTargetLevel>
   </component>
 </project>

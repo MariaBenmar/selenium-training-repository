@@ -51,6 +51,8 @@
     <orderEntry type="library" name="Gradle: org.eclipse.jetty.websocket:websocket-api:9.2.18.v20160721" level="project" />
     <orderEntry type="library" name="Gradle: net.java.dev.jna:jna:4.1.0" level="project" />
     <orderEntry type="library" name="Gradle: xml-apis:xml-apis:1.4.01" level="project" />
+    <orderEntry type="module" module-name="junit-dataprovider-master_main" scope="TEST" />
+    <orderEntry type="library" name="Gradle: net.bytebuddy:byte-buddy:1.4.33" level="project" />
   </component>
   <component name="TestModuleProperties" production-module="java-example_main" />
 </module>
