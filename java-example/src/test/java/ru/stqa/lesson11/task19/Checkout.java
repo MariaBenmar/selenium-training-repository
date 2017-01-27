@@ -35,6 +35,7 @@ public class Checkout {
         public Builder withProductInCheckout(String locatorProductInCheckout) { Checkout.this.locatorProductInCheckout = locatorProductInCheckout; return this; }
         public Builder withCheckoutRemoveButton(String locatorCheckoutRemoveButton) { Checkout.this.locatorCheckoutRemoveButton = locatorCheckoutRemoveButton; return this; }
         public Builder withProductInOrderSummary(String locatorProductInOrderSummary) { Checkout.this.locatorProductInOrderSummary = locatorProductInOrderSummary; return this; }
+        public Checkout build() {return Checkout.this; }
     }
 
 }

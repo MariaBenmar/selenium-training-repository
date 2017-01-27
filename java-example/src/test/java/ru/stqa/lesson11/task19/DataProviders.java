@@ -10,24 +10,17 @@ public class DataProviders {
     @DataProvider
     public static Object[][] dataCheckout() {
         return new Object[][] {
-                { MainPageStore.newEntity()
-                .withProductInCheckout("div.content ul.listing-wrapper.products li.product.column.shadow.hover-light a.link").withSelectOptionSize("Smith").withPhone("+0123456789")
-                .withAddress("Hidden Place").withPostcode("12345").withCity("New City")
-                .withCountry("US").withZone("KS")
-                .withEmail("adam"+System.currentTimeMillis()+"@smith.me")
-                .withPassword("qwerty").build() },
+                { MainStore.newEntity()
+                .withProductMainPage("div.content ul.listing-wrapper.products li.product.column.shadow.hover-light a.link").withHomeButton(".general-0 a").withCheckoutLink("#header div#cart-wrapper .link").build() },
                 /* ... */
 
         { ProductDetails.newEntity()
-                .withProductInCheckout("div.content ul.listing-wrapper.products li.product.column.shadow.hover-light a.link").withSelectOptionSize("Smith").withPhone("+0123456789")
-                .withAddress("Hidden Place").withPostcode("12345").withCity("New City")
-                .withCountry("US").withZone("KS")
-                .withEmail("adam"+System.currentTimeMillis()+"@smith.me")
-                .withPassword("qwerty").build() },
+                .withAddToCartButton("[name='add_cart_product']").withCheckoutProductQuantity("div#cart span.quantity").withSelectOptionSize("[name='options[Size]']")
+                .build() },
                 /* ... */
 
         { Checkout.newEntity()
-                .withProductInCheckout("div.content ul.listing-wrapper.products li.product.column.shadow.hover-light a.link").withCheckoutRemoveButton("Smith").withProductInOrderSummary("+0123456789")}
+                .withProductInCheckout("li.item").withCheckoutRemoveButton("button[name = 'remove_cart_item']").withProductInOrderSummary("div#box-checkout-summary table.dataTable td.item")}
 
     };
     }

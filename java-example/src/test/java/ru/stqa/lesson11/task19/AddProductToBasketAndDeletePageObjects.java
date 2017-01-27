@@ -31,7 +31,7 @@ public class AddProductToBasketAndDeletePageObjects extends TestBase{
 
         locatorProductMainPage = "div.content ul.listing-wrapper.products li.product.column.shadow.hover-light a.link";
         locatorSelectOptionSize = "[name='options[Size]']";
-        locatorAddToCartButton = "[name='add_cart_product'";
+        locatorAddToCartButton = "[name='add_cart_product']";
         locatorCheckoutProductQuantity ="div#cart span.quantity";
         locatorHomeButton = ".general-0 a";
         locatorCheckoutLink = "#header div#cart-wrapper .link";

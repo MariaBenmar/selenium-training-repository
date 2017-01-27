@@ -31,6 +31,7 @@ public class ProductDetails {
         public ProductDetails.Builder withAddToCartButton(String locatorAddToCartButton) { ProductDetails.this.locatorAddToCartButton = locatorAddToCartButton; return this; }
         public ProductDetails.Builder withCheckoutProductQuantity(String locatorCheckoutProductQuantity) { ProductDetails.this.locatorCheckoutProductQuantity = locatorCheckoutProductQuantity; return this; }
         public ProductDetails.Builder withSelectOptionSize(String locatorSelectOptionSize) { ProductDetails.this.locatorSelectOptionSize = locatorSelectOptionSize; return this; }
+        public ProductDetails build() {return ProductDetails.this; }
     }
 
 }
